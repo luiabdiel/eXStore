@@ -54,6 +54,15 @@ header {
             
             width: 5.625rem;
             height: 2.375rem;
+
+            cursor: pointer;
+
+            transition: transform .1s ease-out;
+            display: inline-block;
+
+            &:hover {
+                transform: translate(0, -5px);
+            }
         }
 
         .login {
@@ -69,6 +78,15 @@ header {
             
             width: 5.625rem;
             height: 2.375rem;
+
+            cursor: pointer;
+
+            transition: transform .1s ease-out;
+            display: inline-block;
+
+            &:hover {
+                transform: translate(0, -5px);
+            }
         }
     }
 }

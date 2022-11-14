@@ -50,6 +50,15 @@
             font-size: 1.125rem;
             line-height: 150%;
             color: #FFF;
+
+            transition: transform .1s ease-out;
+            display: inline-block;
+
+            cursor: pointer;
+
+            &:hover {
+                transform: translate(0, -5px);
+            }
         }
     }
 }
