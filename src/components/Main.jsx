@@ -1,3 +1,5 @@
+import { IoIosArrowForward,IoIosArrowBack  } from 'react-icons/io'
+
 import { Navbar } from "./Navbar"
 
 import Styles from './Main.module.scss'
@@ -11,6 +13,18 @@ export function Main() {
                     <h1>MultiVersus</h1>
                     <span>Now officially free to play for all Xbox users.</span>
                     <button className={Styles.btnGetInNow}>Get in now!</button>
+                </div>
+                <div className={Styles.icons}>
+                    <p>
+                        <IoIosArrowBack 
+                        className={Styles.arrowBack} 
+                        size={35} />
+                    </p>
+                    <p> 
+                        <IoIosArrowForward 
+                        className={Styles.arrowBack} 
+                        size={35} />
+                    </p>
                 </div>
             </div>
         </>
