@@ -1,5 +1,11 @@
+import CardImage from '../assets/cardImage.svg'
+
+import Styles from './GamesGenres.module.scss'
+
 export function GamesGenres() {
     return (
-        <h1>Cards games</h1>
+        <div className={Styles.containerCard}>
+            <img src={CardImage} alt="" />
+        </div>
     )
 }
