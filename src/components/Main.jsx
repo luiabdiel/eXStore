@@ -8,6 +8,7 @@ import { Navbar } from './Navbar'
 import {GamesGenres} from './GamesGenres'
 
 import Styles from './Main.module.scss'
+import { BestGames } from './BestGames'
 
 export function Main() {
     return (
@@ -52,20 +53,28 @@ export function Main() {
                         <span className={Styles.descriptionRating}>Available for all Xbox consoles</span>
                     </div>
                 </div>
-
                 <div className={Styles.gamesGenres}>
                     <div className={Styles.genresText}>  
                         <h2>Games Genres</h2>
                         <a href='#' className={Styles.seelAllGenres}>See all genres</a>
                     </div>
-                     <div>
+                    <div className={Styles.cardsGames}>
                         <GamesGenres />
                         <GamesGenres />
                         <GamesGenres />
                         <GamesGenres />
                         <GamesGenres />
                         <GamesGenres />
-                     </div>
+                    </div>
+                    <div className={Styles.BestGamges}>
+                        <h2>Best Seller Games</h2>
+                        <div className={Styles.cardsBestGamges}>
+                            <BestGames />
+                            <BestGames />
+                            <BestGames />
+                            <BestGames />
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

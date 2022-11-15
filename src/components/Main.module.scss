@@ -112,9 +112,14 @@
 
     .containerRating {
         display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 5.1875rem;
+
+        max-width: 57.25rem;
+        width: 100%;
+
+        text-align: center;
+
+        margin: 0 auto;
 
         margin-top: 3.75rem;
 
@@ -127,6 +132,8 @@
                 color: #181818;
                 font-size: 1.25rem;
                 font-weight: 500;
+
+                margin-top: 1.3125rem;
             }
         }
     }  
@@ -134,7 +141,8 @@
     .gamesGenres {
         margin-top: 6.875rem;
 
-        padding-inline: 135px;
+        padding-left: 135px;
+        padding-right: 105px;
 
         .genresText {
             display: flex;
@@ -143,6 +151,23 @@
  
         .seelAllGenres {
             color: #3B44F6;
+        }
+
+        .cardsGames {
+            display: flex;
+            gap: 1rem;
+
+            margin-top: 1.5rem;
+        }
+
+        .BestGamges {
+            margin-top: 1.875rem;
+
+            .cardsBestGamges {
+                margin-top: 1.125rem;
+                
+                display: flex;
+            }
         }
     }
 }
