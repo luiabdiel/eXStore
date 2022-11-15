@@ -27,7 +27,7 @@
           margin-bottom: 1.0625rem;
         }
 
-        span {
+        .subTitle {
             font-size: 1.5rem;
             font-weight: 500;
 
@@ -79,6 +79,70 @@
             border: 1px solid rgba(255, 255, 255, 0.07);
             backdrop-filter: blur(50px);
             mix-blend-mode: lighten;
+        }
+    }
+}
+
+.sectionGames {
+    background-color: #f5f4f9;
+
+    padding-top: 4.375rem;
+
+    .sectionRatingText {
+        width: 473px;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            line-height: 140%;
+    
+            color: #181818;
+            
+            margin-bottom: 1rem;
+        }
+    
+        span {
+            font-size: 1.125rem;
+            line-height: 150%;
+            color: #323232;
+        }
+    }
+
+    .containerRating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5.1875rem;
+
+        margin-top: 3.75rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .descriptionRating {
+                color: #181818;
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+        }
+    }  
+    
+    .gamesGenres {
+        margin-top: 6.875rem;
+
+        padding-inline: 135px;
+
+        .genresText {
+            display: flex;
+            justify-content: space-between;
+        }
+ 
+        .seelAllGenres {
+            color: #3B44F6;
         }
     }
 }
